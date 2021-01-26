@@ -18,7 +18,7 @@ import pybase64
 from sys import executable
 from wolf import CMD_HELP, BOTLOG, BOTLOG_CHATID
 from wolf.events import mrsammy, bot, itzjass
-javes = client = bot
+wolfs = client = bot
 from wolf import CMD_HELP, ALIVE_NAME, PM_MESSAGE, WOLF_NAME, WOLF_MSG, ORI_MSG
 WOLF_NNAME = str(WOLF_NAME) if WOLF_NAME else str(WOLF_MSG)
 FULL_SUDO = os.environ.get("FULL_SUDO", None)
@@ -180,7 +180,7 @@ async def _(event):
        output = open("decompiled.txt", "w+")
        output.write(text)
        output.close()
-       await event.client.send_file(event.chat_id, "decompiled.txt", reply_to=event.id, caption=f"`{JAVES_NNAME}:` **Decompiled Details**")
+       await event.client.send_file(event.chat_id, "decompiled.txt", reply_to=event.id, caption=f"`{WOLF_NNAME}:` **Decompiled Details**")
        os.remove("decompiled.txt")           
     my_file = Path("decompiled.zip")
     if not my_file.exists():
