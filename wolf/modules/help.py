@@ -15,7 +15,7 @@ if not IN:
         else:
             await event.edit("`Unknown module type !help to see all modules`")
     else:
-        await event.edit(" For Support, Report bugs & help @wolfs2suPPort ")
+        await event.edit(" For Support, Report bugs & help @WolfBotHelp ")
         string = (f"`Use !help <module_name>`\n\n**Currently Loaded [{len(CMD_HELP)}] Modules **\n")
         for i in CMD_HELP:
             string += "`" + str(i)
