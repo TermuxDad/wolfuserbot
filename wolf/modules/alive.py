@@ -4,7 +4,7 @@ from telethon import version
 from wolf import (HEROKU_APP_NAME, HEROKU_API_KEY, CMD_HELP, BOTLOG, BOTLOG_CHATID, WOLF_NAME, ALIVE_NAME)
 from wolf.events import mrsammy, itzjass 
 import os
-shivam = os.environ.get("ALIVE_PIC","https://telegra.ph/file/8a3ab7aa9d71c29aae187.mp4")
+shivam = os.environ.get("ALIVE_PIC","https://telegra.ph/file/6236b29bd01769bad3b5a.jpg")
 
 import asyncio
 from telethon import events
