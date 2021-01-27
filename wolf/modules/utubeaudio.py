@@ -1,7 +1,11 @@
 # Plugin made by @hellboi_atul for DARK COBRA..
 # You can use this..but don't edit/remove these comment lines..
-# This module is for playing tik tak toe game..
+# This module fetches the audio from YouTube for the given query..
 # So wahi...Enjoy
+""" This plugin is the V2 of utube.py in DARK COBRA wolf..which directly fetches the audio..
+ it's not necessary for this plugin to always work.. 
+ Audios are auto queued for downloads..
+ This too made by @hellboi_atul .. """
 
 import re
 import random
@@ -28,21 +32,20 @@ def deEmojify(inputString: str) -> str:
     return re.sub(IF_EMOJI, '', inputString)
 
 
-@wolfs.on(admin_cmd(pattern="playxo(?: |$)(.*)"))
+@wolfs.on(admin_cmd(pattern="uta(?: |$)(.*)"))
 
 async def nope(doit):
     ok = doit.pattern_match.group(1)
     if not ok:
         if doit.is_reply:
             what = (await doit.get_reply_message()).message
-        
+        else:
+            await doit.edit("`Sir please give some query to search and download it for you..!`")
             return
-    xoxoxo = await bot.inline_query(
-        "xobot", f"{(deEmojify(ok))}")
-    await xoxoxo[0].click(doit.chat_id,
+    sticcers = await bot.inline_query(
+        "Lybot", f"{(deEmojify(ok))}")
+    await sticcers[0].click(doit.chat_id,
                             reply_to=doit.reply_to_msg_id,
                             silent=True if doit.is_reply else False,
                             hide_via=True)
     await doit.delete()
-
-

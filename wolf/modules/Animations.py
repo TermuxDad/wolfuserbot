@@ -112,7 +112,7 @@ async def _(event):
             "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
             "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
             "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-	    "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [CAT IS BEST](https://github.com/Sur-vivor/CatUserbot) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜"
+	    "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [CAT IS BEST](https://github.com/Sur-vivor/Catwolf) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜"
             
  ]
     if event.fwd_from:
@@ -911,7 +911,7 @@ async def _(event):
     animation_chars = [
         
             "**Heroku Connecting To Latest Github Build **",
-            f"**Build started by user** @WolfBotHelp",
+            f"**Build started by user** @Kraken_The_BadASS",
             f"**Deploy** `535a74f0` for user by my master!!",
             "**Restarting Heroku Server...**",
             "**State changed from up to starting**",    
@@ -919,8 +919,8 @@ async def _(event):
             "**Process exited with** `status 143`",
             "**Starting process with command** `python3 -m stdborg`",
             "**State changed from starting to up**",
-            "__INFO:Wolf:Logged in as 557667062__",
-            "__INFO:Wolf:Successfully loaded all plugins__",
+            "__INFO:wolf:Logged in as 557667062__",
+            "__INFO:wolf:Successfully loaded all plugins__",
             "**Build Succeeded**"
  ]
     for i in animation_ttl:
@@ -1297,7 +1297,7 @@ async def _(event):
     animation_chars = [
         
 
-            "COMMAND CREATE BY @WolfBotHelp",
+            "COMMAND CREATE BY @Kraken_The_BadASS",
             "🤡️",
             "🤡🤡",
             "🤡🤡🤡",

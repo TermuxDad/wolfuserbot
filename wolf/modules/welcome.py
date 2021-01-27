@@ -177,7 +177,7 @@ async def show_welcome(event):
 
 
 
-@wolf.on(itzjass(pattern=f"checkwelcome$", allow_sudo=True))
+@wolfs.on(itzjass(pattern=f"checkwelcome$", allow_sudo=True))
 async def show_welcome(event):
     try:
         from wolf.modules.sql_helper.welcome_sql import get_current_welcome_settings
