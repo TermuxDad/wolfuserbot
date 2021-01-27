@@ -56,7 +56,7 @@ import asyncio
 import os
 import requests
 import math
-from wolf.wolfs_main.commands import progress, humanbytes, time_formatter
+from wolf.wolfbot.commands import progress, humanbytes, time_formatter
 from wolf import CMD_HELP
 HEROKU_APP_NAME = os.environ.get("HEROKU_APPNAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_APIKEY", None)
