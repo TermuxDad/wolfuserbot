@@ -24,7 +24,7 @@ SPAM_PROTECT = os.environ.get("SPAM_PROTECT", None)
 WOLF_NNAME = str(WOLF_NAME) if WOLF_NAME else str(WOLF_MSG)
 ALIVE_S_MMSG = str(ALIVE_S_MESSAGE) if ALIVE_S_MESSAGE else str(ALIVE_S_MSG)
 ALIVE_E_MMSG = str(ALIVE_E_MESSAGE) if ALIVE_E_MESSAGE else str(ALIVE_E_MSG)
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "wolfs 2.0"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "wolfs"
 START_TIME = datetime.now()
 client = bot
 S2_NAME = os.environ.get("S2_NAME", WOLF_NNAME)
@@ -32,7 +32,7 @@ S3_NAME = os.environ.get("S3_NAME", WOLF_NNAME)
 S2_USER = os.environ.get("S2_USER", DEFAULTUSER)
 S3_USER = os.environ.get("S3_USER", DEFAULTUSER)
 
-v = "2.0.0"
+v = "0.0.0"
 
 if rksu:
  if FULL_SUDO:
