@@ -467,7 +467,7 @@ async def repeat(rep):
 @mrsammy(outgoing=True, pattern="^\!repo$")
 async def repo_is_here(wannasee):
     await wannasee.edit(
-        f"Click [here](t.me/wolf_support) For Support Group \n Repo : click [here](https://github.com/MrSammyXD/wolfuserbot)")
+        f"Click [here](t.me/wolfbothelp) For Support Group \n Repo : click [here](https://github.com/MrSammyXD/wolfuserbot)")
 
 @mrsammy(outgoing=True, pattern="^\!raw$")
 async def raw(event):
