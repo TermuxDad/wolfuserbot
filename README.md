@@ -14,7 +14,7 @@
 
 </p>
 <a href="https://youtu.be/UCJEMDBgp_zYywtotOBrYJYw"><img src="https://img.shields.io/badge/How%20To%20Deploy-LATEST-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/UCJEMDBgp_zYywtotOBrYJYw"><img src="https://img.shields.io/youtube/views/VnKXvIWWfu8?style=social">
+<a href="https://youtu.be/UCJEMDBgp_zYywtotOBrYJYw"><img src="https://img.shields.io/youtube/views/8iMiQQ8yi9Y?style=social">
 
 
 ## How To Host
