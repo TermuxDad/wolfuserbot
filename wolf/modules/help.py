@@ -35,7 +35,7 @@ async def help(event):
         else:
             await event.reply("`Unknown module type !help to see all modules`")
     else:
-        await event.reply(" For Support, Report bugs & help @wolfs2SuPPort ")
+        await event.reply(" For Support, Report bugs & help @WolfBotHelp ")
         string = (f"`Use .help <module_name>`\n\n**Currently Loaded [{len(CMD_HELP)}] Modules **\n")
         for i in CMD_HELP:
             string += "`" + str(i)
