@@ -301,8 +301,8 @@ async def upstream(ups):
             )
             repo.__del__()
             return
-        await ups.edit(f'`[Updater]\
-                        {WOLF_NNAME} •dyno build in progress, please wait for it to complete.\n•It may take 10-15 minutes Sabar Kro ✋🖕🏻🤚`'
+        await ups.edit(f'**Performing\
+                        {WOLF_NNAME} •A Power Update. Please Wait.\n•It Usually Take 10 or 15 min.**'
                        )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
