@@ -1,11 +1,12 @@
-pip
-virtualenv
-setuptools
-wheel
+#pip
+#virtualenv
+#setuptools
+#wheel
 Pillow
 #pymediainfo
 #MediaInfo
 moviepy
+pokedex.py
 glitch_this
 PyGithub
 aiofiles
